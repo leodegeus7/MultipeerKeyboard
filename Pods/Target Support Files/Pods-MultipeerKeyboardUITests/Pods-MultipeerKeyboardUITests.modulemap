@@ -1,0 +1,6 @@
+framework module Pods_MultipeerKeyboardUITests {
+  umbrella header "Pods-MultipeerKeyboardUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

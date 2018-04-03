@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CB45F4572C1B3F8A2C11B5AFD1FEB94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		252EECB85EF1A20C2BB792FF3B92ED18 /* Pods-MultipeerKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1922340BB9D2E9E77E0F3A1773582F8 /* Pods-MultipeerKeyboard-dummy.m */; };
+		2C1B489918608E3ED0F7A0C050B47C95 /* Pods-MultipeerKeyboardUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F18A68BDE512CFDE88F69FE7A4738924 /* Pods-MultipeerKeyboardUITests-dummy.m */; };
+		7D691BAC6CF15766DFB1AAAB913DF21A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		96D26104CC3C9ACEAC9EA6AB5C3A8B08 /* Pods-MultipeerKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64317C33DF3F646AC3DE367BCCD4B134 /* Pods-MultipeerKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C0E510E4AD680978771E0139B311867 /* Pods-MultipeerKeyboardTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA6F0C8B9B4A5A6BC42F887A7EB9893 /* Pods-MultipeerKeyboardTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D8FB00750A579817AADEA881FC8FDB8 /* Pods-MultipeerKeyboardTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33881C0C84638F6C45532D88A6F6A28C /* Pods-MultipeerKeyboardTests-dummy.m */; };
+		EC4CA1EB040FE1120D1B3737F8F18D83 /* Pods-MultipeerKeyboardUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1941C41EF4DC5BC3A95BC85695CD79F /* Pods-MultipeerKeyboardUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB21E999AD4B0C9D23460F4095723649 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01C0D35865EF3A3D6D77188707186DF2 /* Pods_MultipeerKeyboardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MultipeerKeyboardUITests.framework; path = "Pods-MultipeerKeyboardUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0988F801FEF7F43EC3FD017D0469634D /* Pods-MultipeerKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultipeerKeyboard.release.xcconfig"; sourceTree = "<group>"; };
+		09C615A55D2B6CC22F608E57BD6332F9 /* Pods-MultipeerKeyboardTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MultipeerKeyboardTests.modulemap"; sourceTree = "<group>"; };
+		10532BA831C7A77A6BBDD4C3F14CA963 /* Pods-MultipeerKeyboardTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultipeerKeyboardTests-resources.sh"; sourceTree = "<group>"; };
+		2253601430231D6EFAF20D43EBB00950 /* Pods-MultipeerKeyboardUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MultipeerKeyboardUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		267346E30871C453609E89A19D8FB19A /* Pods-MultipeerKeyboardUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultipeerKeyboardUITests-frameworks.sh"; sourceTree = "<group>"; };
+		2794053D29FE880F89722D026825BA6E /* Pods_MultipeerKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MultipeerKeyboard.framework; path = "Pods-MultipeerKeyboard.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F4828AD9922088443E731F907F23E26 /* Pods-MultipeerKeyboardUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MultipeerKeyboardUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3270873981A219ED63EB932BBD8C2CC3 /* Pods-MultipeerKeyboard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MultipeerKeyboard-acknowledgements.markdown"; sourceTree = "<group>"; };
+		33881C0C84638F6C45532D88A6F6A28C /* Pods-MultipeerKeyboardTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MultipeerKeyboardTests-dummy.m"; sourceTree = "<group>"; };
+		4C4B3250529F5124D22C96B86FCF2867 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64317C33DF3F646AC3DE367BCCD4B134 /* Pods-MultipeerKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MultipeerKeyboard-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66DE1466F10F307A06B59141E4171ED5 /* Pods-MultipeerKeyboardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultipeerKeyboardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E37ABF39D5BB60E423DB5E8258DC2B8 /* Pods-MultipeerKeyboardTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MultipeerKeyboardTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B2F096E50045B2C347D22882E6A9D72 /* Pods-MultipeerKeyboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultipeerKeyboardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86C9A198B24BFE722CF3378C59F02E5D /* Pods-MultipeerKeyboard-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultipeerKeyboard-frameworks.sh"; sourceTree = "<group>"; };
+		87938AAD2B00599D435C3A85BF58A169 /* Pods-MultipeerKeyboardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultipeerKeyboardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		908EFC2F3F0E92B146489080228F0616 /* Pods-MultipeerKeyboard-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultipeerKeyboard-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A85AEED10714924A398DB1E1500AA80D /* Pods-MultipeerKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MultipeerKeyboard.modulemap"; sourceTree = "<group>"; };
+		A882561E6760BA17A83DEAD6BFC3B14A /* Pods-MultipeerKeyboardTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultipeerKeyboardTests-frameworks.sh"; sourceTree = "<group>"; };
+		ADA6F0C8B9B4A5A6BC42F887A7EB9893 /* Pods-MultipeerKeyboardTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MultipeerKeyboardTests-umbrella.h"; sourceTree = "<group>"; };
+		AE4C8A2EF6563D4A95CDE16A3FA12CBA /* Pods-MultipeerKeyboardTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MultipeerKeyboardTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8B14F536D2D446AD9313D6F5EC22F07 /* Pods-MultipeerKeyboard-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MultipeerKeyboard-acknowledgements.plist"; sourceTree = "<group>"; };
+		C49D0ACBF09F9A71DD11B1DBBE8E7EFE /* Pods-MultipeerKeyboardUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MultipeerKeyboardUITests.modulemap"; sourceTree = "<group>"; };
+		C5D37BA8FEFB9439F2F20362B4D28A3A /* Pods-MultipeerKeyboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultipeerKeyboardTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6776EF3E7E2AE8CEB36B761D1A18B93 /* Pods-MultipeerKeyboardUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultipeerKeyboardUITests-resources.sh"; sourceTree = "<group>"; };
+		D62B7E3A0035A65100882707B1E5F30D /* Pods_MultipeerKeyboardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MultipeerKeyboardTests.framework; path = "Pods-MultipeerKeyboardTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC57351505081434938549A2AB4CB604 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1922340BB9D2E9E77E0F3A1773582F8 /* Pods-MultipeerKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MultipeerKeyboard-dummy.m"; sourceTree = "<group>"; };
+		E69E5CB370388E526FA0E40BC7F1CBA6 /* Pods-MultipeerKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultipeerKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		F18A68BDE512CFDE88F69FE7A4738924 /* Pods-MultipeerKeyboardUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MultipeerKeyboardUITests-dummy.m"; sourceTree = "<group>"; };
+		F1941C41EF4DC5BC3A95BC85695CD79F /* Pods-MultipeerKeyboardUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MultipeerKeyboardUITests-umbrella.h"; sourceTree = "<group>"; };
+		F92D2D9E810CB1FE0118B24DE3AFB61F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46AF9B7EFEA30F256DE96AFE8BF7C4EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB45F4572C1B3F8A2C11B5AFD1FEB94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C634452F5C9F5DCA0F123D59A78DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB21E999AD4B0C9D23460F4095723649 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C48F244AC4B49D2B4977BDC567D17482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D691BAC6CF15766DFB1AAAB913DF21A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A547E1ED5E46F7ED600A4DEED5DE8C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2794053D29FE880F89722D026825BA6E /* Pods_MultipeerKeyboard.framework */,
+				D62B7E3A0035A65100882707B1E5F30D /* Pods_MultipeerKeyboardTests.framework */,
+				01C0D35865EF3A3D6D77188707186DF2 /* Pods_MultipeerKeyboardUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1A547E1ED5E46F7ED600A4DEED5DE8C6 /* Products */,
+				8A5EF849AF25481A56C22F8581030992 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A5EF849AF25481A56C22F8581030992 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDA0A59CD274F3570979DDEC193C54E0 /* Pods-MultipeerKeyboard */,
+				DCDA06704382105E7CCE5F7ED3F52A84 /* Pods-MultipeerKeyboardTests */,
+				AC18302191F9ED5E940ED5F7CBB4748D /* Pods-MultipeerKeyboardUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AC18302191F9ED5E940ED5F7CBB4748D /* Pods-MultipeerKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C4B3250529F5124D22C96B86FCF2867 /* Info.plist */,
+				C49D0ACBF09F9A71DD11B1DBBE8E7EFE /* Pods-MultipeerKeyboardUITests.modulemap */,
+				2F4828AD9922088443E731F907F23E26 /* Pods-MultipeerKeyboardUITests-acknowledgements.markdown */,
+				2253601430231D6EFAF20D43EBB00950 /* Pods-MultipeerKeyboardUITests-acknowledgements.plist */,
+				F18A68BDE512CFDE88F69FE7A4738924 /* Pods-MultipeerKeyboardUITests-dummy.m */,
+				267346E30871C453609E89A19D8FB19A /* Pods-MultipeerKeyboardUITests-frameworks.sh */,
+				C6776EF3E7E2AE8CEB36B761D1A18B93 /* Pods-MultipeerKeyboardUITests-resources.sh */,
+				F1941C41EF4DC5BC3A95BC85695CD79F /* Pods-MultipeerKeyboardUITests-umbrella.h */,
+				87938AAD2B00599D435C3A85BF58A169 /* Pods-MultipeerKeyboardUITests.debug.xcconfig */,
+				66DE1466F10F307A06B59141E4171ED5 /* Pods-MultipeerKeyboardUITests.release.xcconfig */,
+			);
+			name = "Pods-MultipeerKeyboardUITests";
+			path = "Target Support Files/Pods-MultipeerKeyboardUITests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDA0A59CD274F3570979DDEC193C54E0 /* Pods-MultipeerKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DC57351505081434938549A2AB4CB604 /* Info.plist */,
+				A85AEED10714924A398DB1E1500AA80D /* Pods-MultipeerKeyboard.modulemap */,
+				3270873981A219ED63EB932BBD8C2CC3 /* Pods-MultipeerKeyboard-acknowledgements.markdown */,
+				B8B14F536D2D446AD9313D6F5EC22F07 /* Pods-MultipeerKeyboard-acknowledgements.plist */,
+				E1922340BB9D2E9E77E0F3A1773582F8 /* Pods-MultipeerKeyboard-dummy.m */,
+				86C9A198B24BFE722CF3378C59F02E5D /* Pods-MultipeerKeyboard-frameworks.sh */,
+				908EFC2F3F0E92B146489080228F0616 /* Pods-MultipeerKeyboard-resources.sh */,
+				64317C33DF3F646AC3DE367BCCD4B134 /* Pods-MultipeerKeyboard-umbrella.h */,
+				E69E5CB370388E526FA0E40BC7F1CBA6 /* Pods-MultipeerKeyboard.debug.xcconfig */,
+				0988F801FEF7F43EC3FD017D0469634D /* Pods-MultipeerKeyboard.release.xcconfig */,
+			);
+			name = "Pods-MultipeerKeyboard";
+			path = "Target Support Files/Pods-MultipeerKeyboard";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DCDA06704382105E7CCE5F7ED3F52A84 /* Pods-MultipeerKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				F92D2D9E810CB1FE0118B24DE3AFB61F /* Info.plist */,
+				09C615A55D2B6CC22F608E57BD6332F9 /* Pods-MultipeerKeyboardTests.modulemap */,
+				6E37ABF39D5BB60E423DB5E8258DC2B8 /* Pods-MultipeerKeyboardTests-acknowledgements.markdown */,
+				AE4C8A2EF6563D4A95CDE16A3FA12CBA /* Pods-MultipeerKeyboardTests-acknowledgements.plist */,
+				33881C0C84638F6C45532D88A6F6A28C /* Pods-MultipeerKeyboardTests-dummy.m */,
+				A882561E6760BA17A83DEAD6BFC3B14A /* Pods-MultipeerKeyboardTests-frameworks.sh */,
+				10532BA831C7A77A6BBDD4C3F14CA963 /* Pods-MultipeerKeyboardTests-resources.sh */,
+				ADA6F0C8B9B4A5A6BC42F887A7EB9893 /* Pods-MultipeerKeyboardTests-umbrella.h */,
+				7B2F096E50045B2C347D22882E6A9D72 /* Pods-MultipeerKeyboardTests.debug.xcconfig */,
+				C5D37BA8FEFB9439F2F20362B4D28A3A /* Pods-MultipeerKeyboardTests.release.xcconfig */,
+			);
+			name = "Pods-MultipeerKeyboardTests";
+			path = "Target Support Files/Pods-MultipeerKeyboardTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		243430816A90F23037230071ABDD435C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C0E510E4AD680978771E0139B311867 /* Pods-MultipeerKeyboardTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642295B120D9565D62666DC878AA0EED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D26104CC3C9ACEAC9EA6AB5C3A8B08 /* Pods-MultipeerKeyboard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D5EE4FA6C1E193B662736A1D2E12FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4CA1EB040FE1120D1B3737F8F18D83 /* Pods-MultipeerKeyboardUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		139440E90F61D1C4F6E8736AA6DAA474 /* Pods-MultipeerKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DAB0B400FB1C47682A4711358252CCF /* Build configuration list for PBXNativeTarget "Pods-MultipeerKeyboardTests" */;
+			buildPhases = (
+				EB1C1672BB7B0E7A5104073D6D54FEB7 /* Sources */,
+				C48F244AC4B49D2B4977BDC567D17482 /* Frameworks */,
+				243430816A90F23037230071ABDD435C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MultipeerKeyboardTests";
+			productName = "Pods-MultipeerKeyboardTests";
+			productReference = D62B7E3A0035A65100882707B1E5F30D /* Pods_MultipeerKeyboardTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		31847E877735297F5A126F66408AD7E0 /* Pods-MultipeerKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1276150C75A5B26ADD48019D9BD88AD5 /* Build configuration list for PBXNativeTarget "Pods-MultipeerKeyboardUITests" */;
+			buildPhases = (
+				02A14B7CA5555BB1A43AA43FF5C4DDDC /* Sources */,
+				B3C634452F5C9F5DCA0F123D59A78DFD /* Frameworks */,
+				B8D5EE4FA6C1E193B662736A1D2E12FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MultipeerKeyboardUITests";
+			productName = "Pods-MultipeerKeyboardUITests";
+			productReference = 01C0D35865EF3A3D6D77188707186DF2 /* Pods_MultipeerKeyboardUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9DE0268155CEEF653DD05E8C3E10DA8 /* Pods-MultipeerKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7456483238E513EF55EF4AB3A381C853 /* Build configuration list for PBXNativeTarget "Pods-MultipeerKeyboard" */;
+			buildPhases = (
+				285B0FC9F76C6CB044005B722BF6AA27 /* Sources */,
+				46AF9B7EFEA30F256DE96AFE8BF7C4EA /* Frameworks */,
+				642295B120D9565D62666DC878AA0EED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MultipeerKeyboard";
+			productName = "Pods-MultipeerKeyboard";
+			productReference = 2794053D29FE880F89722D026825BA6E /* Pods_MultipeerKeyboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1A547E1ED5E46F7ED600A4DEED5DE8C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9DE0268155CEEF653DD05E8C3E10DA8 /* Pods-MultipeerKeyboard */,
+				139440E90F61D1C4F6E8736AA6DAA474 /* Pods-MultipeerKeyboardTests */,
+				31847E877735297F5A126F66408AD7E0 /* Pods-MultipeerKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02A14B7CA5555BB1A43AA43FF5C4DDDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1B489918608E3ED0F7A0C050B47C95 /* Pods-MultipeerKeyboardUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285B0FC9F76C6CB044005B722BF6AA27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252EECB85EF1A20C2BB792FF3B92ED18 /* Pods-MultipeerKeyboard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB1C1672BB7B0E7A5104073D6D54FEB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8FB00750A579817AADEA881FC8FDB8 /* Pods-MultipeerKeyboardTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0247B28FD09770E1CBCB5C88254F4D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87938AAD2B00599D435C3A85BF58A169 /* Pods-MultipeerKeyboardUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MultipeerKeyboardUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MultipeerKeyboardUITests/Pods-MultipeerKeyboardUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MultipeerKeyboardUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		048D3EDD61888F0BB18524B0F152F1B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D37BA8FEFB9439F2F20362B4D28A3A /* Pods-MultipeerKeyboardTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MultipeerKeyboardTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MultipeerKeyboardTests/Pods-MultipeerKeyboardTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MultipeerKeyboardTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26C5DAB63BC796B2C503B91F40F1EFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66DE1466F10F307A06B59141E4171ED5 /* Pods-MultipeerKeyboardUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MultipeerKeyboardUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MultipeerKeyboardUITests/Pods-MultipeerKeyboardUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MultipeerKeyboardUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6785FEB7341C67AC5310986A8596C30A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E69E5CB370388E526FA0E40BC7F1CBA6 /* Pods-MultipeerKeyboard.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MultipeerKeyboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MultipeerKeyboard/Pods-MultipeerKeyboard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MultipeerKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		974149ECD37CCC97F6393746A9E1F590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B2F096E50045B2C347D22882E6A9D72 /* Pods-MultipeerKeyboardTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MultipeerKeyboardTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MultipeerKeyboardTests/Pods-MultipeerKeyboardTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MultipeerKeyboardTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9BF45D1D096F0A55E127610DE747C683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0988F801FEF7F43EC3FD017D0469634D /* Pods-MultipeerKeyboard.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MultipeerKeyboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MultipeerKeyboard/Pods-MultipeerKeyboard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MultipeerKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABC1C622E3A94D5EFA80B6DBB5E64193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D72E489B59C3A70112D2342F402BD262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DAB0B400FB1C47682A4711358252CCF /* Build configuration list for PBXNativeTarget "Pods-MultipeerKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974149ECD37CCC97F6393746A9E1F590 /* Debug */,
+				048D3EDD61888F0BB18524B0F152F1B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1276150C75A5B26ADD48019D9BD88AD5 /* Build configuration list for PBXNativeTarget "Pods-MultipeerKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0247B28FD09770E1CBCB5C88254F4D09 /* Debug */,
+				26C5DAB63BC796B2C503B91F40F1EFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72E489B59C3A70112D2342F402BD262 /* Debug */,
+				ABC1C622E3A94D5EFA80B6DBB5E64193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7456483238E513EF55EF4AB3A381C853 /* Build configuration list for PBXNativeTarget "Pods-MultipeerKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6785FEB7341C67AC5310986A8596C30A /* Debug */,
+				9BF45D1D096F0A55E127610DE747C683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

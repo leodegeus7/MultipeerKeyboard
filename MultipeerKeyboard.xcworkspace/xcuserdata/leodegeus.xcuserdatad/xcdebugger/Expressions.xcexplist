@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in ViewController.colorChanged(manager:colorString:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "&quot;\(self.colorService.myPeerId)&quot;">
+            </PersistentString>
+            <PersistentString
+               value = "strings[0]">
+            </PersistentString>
+            <PersistentString
+               value = "strings[0] == &quot;\(self.colorService.myPeerId)&quot;">
+            </PersistentString>
+            <PersistentString
+               value = "String(strings[0]) == &quot;\(self.colorService.myPeerId)&quot;">
+            </PersistentString>
+            <PersistentString
+               value = "String(strings[0])">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ColorServiceManager.advertiser(_:didReceiveInvitationFromPeer:withContext:invitationHandler:):ColorServiceManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "pears">
+            </PersistentString>
+            <PersistentString
+               value = "peerID.displayName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.sendNote(note:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "devices">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.change():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "devices">
+            </PersistentString>
+            <PersistentString
+               value = "Int(division)*5">
+            </PersistentString>
+            <PersistentString
+               value = "Int(division*5)">
+            </PersistentString>
+            <PersistentString
+               value = "Int(division*3)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
