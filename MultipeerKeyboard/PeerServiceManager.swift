@@ -1,6 +1,6 @@
 //
-//  ColorServiceManager.swift
-//  SocketTest
+//  PeerServiceManager.swift
+//  MultipeerKeyboard
 //
 //  Created by Leonardo Geus on 03/04/2018.
 //  Copyright © 2018 Leonardo Geus. All rights reserved.
@@ -9,32 +9,26 @@
 import UIKit
 import MultipeerConnectivity
 
-
-
 class PeerServiceManager: NSObject {
     
-    private let ColorServiceType = "example-color"
-    var delegate : ColorServiceManagerDelegate?
+    var delegate : PeerServiceManagerDelegate?
+    private let PeerServiceType = "keyboard-peer"
     public let myPeerId = MCPeerID(displayName: UIDevice.current.name)
     private var serviceAdvertiser : MCNearbyServiceAdvertiser!
     private let serviceBrowser : MCNearbyServiceBrowser
-    
+    var pears:[MCPeerID] = []
     lazy var session : MCSession = {
         let session = MCSession(peer: self.myPeerId, securityIdentity: nil, encryptionPreference: .required)
         session.delegate = self
         return session
     }()
     
-    
-    var pears:[MCPeerID] = []
-    
     override init() {
-        self.serviceAdvertiser = MCNearbyServiceAdvertiser(peer: myPeerId, discoveryInfo: nil, serviceType: ColorServiceType)
-        self.serviceBrowser = MCNearbyServiceBrowser(peer: myPeerId, serviceType: ColorServiceType)
+        self.serviceAdvertiser = MCNearbyServiceAdvertiser(peer: myPeerId, discoveryInfo: nil, serviceType: PeerServiceType)
+        self.serviceBrowser = MCNearbyServiceBrowser(peer: myPeerId, serviceType: PeerServiceType)
         super.init()
         self.serviceAdvertiser.delegate = self
         self.serviceAdvertiser.startAdvertisingPeer()
-        
         self.serviceBrowser.delegate = self
         self.serviceBrowser.startBrowsingForPeers()
     }
@@ -44,12 +38,12 @@ class PeerServiceManager: NSObject {
         self.serviceBrowser.stopBrowsingForPeers()
     }
     
-    func send(colorName : String) {
-        NSLog("%@", "sendColor: \(colorName) to \(session.connectedPeers.count) peers")
+    func send(string : String) {
+        NSLog("%@", "sendColor: \(string) to \(session.connectedPeers.count) peers")
         
         if session.connectedPeers.count > 0 {
             do {
-                try self.session.send(colorName.data(using: .utf8)!, toPeers: session.connectedPeers, with: .reliable)
+                try self.session.send(string.data(using: .utf8)!, toPeers: session.connectedPeers, with: .reliable)
             }
             catch let error {
                 NSLog("%@", "Error for sending: \(error)")
@@ -75,6 +69,7 @@ extension PeerServiceManager : MCNearbyServiceAdvertiserDelegate {
         invitationHandler(true, self.session)
         
     }
+    
 
     
 }
@@ -124,8 +119,7 @@ extension PeerServiceManager : MCNearbyServiceBrowserDelegate {
     }
 }
 
-protocol ColorServiceManagerDelegate {
-    
+protocol PeerServiceManagerDelegate {
     func connectedDevicesChanged(manager : PeerServiceManager, connectedDevices: [String])
     func colorChanged(manager : PeerServiceManager, colorString: String)
     

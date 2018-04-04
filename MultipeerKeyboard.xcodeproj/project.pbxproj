@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1EBE3F1BA7ACBFCC811D1C6F /* Pods_SocketTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5715903CEDD07B4EB76EFE1E /* Pods_SocketTest.framework */; };
 		27214D827D5DB9DCB3A2687F /* Pods_SocketTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CA150E45D549C3FED053CB /* Pods_SocketTestUITests.framework */; };
 		2FE71041146BC52A19A5EDC8 /* Pods_SocketTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1701DE49C03B9C2571A408D /* Pods_SocketTestTests.framework */; };
 		8709687EB29851344F4F6219 /* Pods_MultipeerKeyboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05761148A24BD5FAB1B4350 /* Pods_MultipeerKeyboardUITests.framework */; };
 		CD068FD92073CCE30073CCF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD068FD82073CCE30073CCF4 /* AppDelegate.swift */; };
 		CD068FDB2073CCE30073CCF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD068FDA2073CCE30073CCF4 /* ViewController.swift */; };
 		CD068FDE2073CCE30073CCF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD068FDC2073CCE30073CCF4 /* Main.storyboard */; };
-		CD068FE02073CCE30073CCF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD068FDF2073CCE30073CCF4 /* Assets.xcassets */; };
 		CD068FE32073CCE30073CCF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD068FE12073CCE30073CCF4 /* LaunchScreen.storyboard */; };
 		CD068FEE2073CCE30073CCF4 /* SocketTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD068FED2073CCE30073CCF4 /* SocketTestTests.swift */; };
 		CD068FF92073CCE30073CCF4 /* SocketTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD068FF82073CCE30073CCF4 /* SocketTestUITests.swift */; };
 		CD0690082073CE6E0073CCF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD068FDA2073CCE30073CCF4 /* ViewController.swift */; };
 		CD06900A2073D1B20073CCF4 /* PeerServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0690092073D1B20073CCF4 /* PeerServiceManager.swift */; };
+		CDAA532B2074673F000D053A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA532A2074673F000D053A /* Colors.swift */; };
+		CDAA532D20746A47000D053A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAA532C20746A47000D053A /* Assets.xcassets */; };
 		CDD66D72207405D0002F0D22 /* sol.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDD66D71207405D0002F0D22 /* sol.wav */; };
 		CDD66D74207405D4002F0D22 /* fa.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDD66D73207405D4002F0D22 /* fa.wav */; };
 		CDD66D76207405D9002F0D22 /* do.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDD66D75207405D8002F0D22 /* do.wav */; };
@@ -66,7 +66,6 @@
 		CD068FD82073CCE30073CCF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD068FDA2073CCE30073CCF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD068FDD2073CCE30073CCF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CD068FDF2073CCE30073CCF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD068FE22073CCE30073CCF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD068FE42073CCE30073CCF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD068FE92073CCE30073CCF4 /* MultipeerKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipeerKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +75,8 @@
 		CD068FF82073CCE30073CCF4 /* SocketTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketTestUITests.swift; sourceTree = "<group>"; };
 		CD068FFA2073CCE30073CCF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD0690092073D1B20073CCF4 /* PeerServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerServiceManager.swift; sourceTree = "<group>"; };
+		CDAA532A2074673F000D053A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CDAA532C20746A47000D053A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDD66D71207405D0002F0D22 /* sol.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sol.wav; sourceTree = "<group>"; };
 		CDD66D73207405D4002F0D22 /* fa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fa.wav; sourceTree = "<group>"; };
 		CDD66D75207405D8002F0D22 /* do.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = do.wav; sourceTree = "<group>"; };
@@ -91,7 +92,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EBE3F1BA7ACBFCC811D1C6F /* Pods_SocketTest.framework in Frameworks */,
 				E6647D3113E705BBF339EAC1 /* Pods_MultipeerKeyboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,9 +147,10 @@
 				CD068FDA2073CCE30073CCF4 /* ViewController.swift */,
 				CD0690092073D1B20073CCF4 /* PeerServiceManager.swift */,
 				CD068FDC2073CCE30073CCF4 /* Main.storyboard */,
-				CD068FDF2073CCE30073CCF4 /* Assets.xcassets */,
 				CD068FE12073CCE30073CCF4 /* LaunchScreen.storyboard */,
+				CDAA532C20746A47000D053A /* Assets.xcassets */,
 				CD068FE42073CCE30073CCF4 /* Info.plist */,
+				CDAA532A2074673F000D053A /* Colors.swift */,
 			);
 			path = MultipeerKeyboard;
 			sourceTree = "<group>";
@@ -337,8 +338,8 @@
 				CDD66D74207405D4002F0D22 /* fa.wav in Resources */,
 				CDD66D72207405D0002F0D22 /* sol.wav in Resources */,
 				CDD66D78207405DD002F0D22 /* re.wav in Resources */,
-				CD068FE02073CCE30073CCF4 /* Assets.xcassets in Resources */,
 				CD068FDE2073CCE30073CCF4 /* Main.storyboard in Resources */,
+				CDAA532D20746A47000D053A /* Assets.xcassets in Resources */,
 				CDD66D7A207405E1002F0D22 /* mi.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,6 +518,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD068FDB2073CCE30073CCF4 /* ViewController.swift in Sources */,
+				CDAA532B2074673F000D053A /* Colors.swift in Sources */,
 				CD068FD92073CCE30073CCF4 /* AppDelegate.swift in Sources */,
 				CD06900A2073D1B20073CCF4 /* PeerServiceManager.swift in Sources */,
 			);
